@@ -12,7 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  dio: ^3.0.10
+  dio:
+    git:
+      url: git@github.com:asconsoft/dio.git
+      ref: master
+      path: dio
+
   path_provider: ^1.6.17
 
   dio_cache_interceptor:
